@@ -1,57 +1,74 @@
-# TastyHub
+# TastyHub — Food Ordering and Management System
 
-**TastyHub** is a Java desktop food-ordering and restaurant-administration application developed as a collaborative academic project by **Group 3** at Kampala International University.
+**Academic project — group work by Group 3, developed by Nyamanyama Essenine.** TastyHub is a standalone desktop application that lets customers order food and lets administrators manage the menu, orders and customer complaints. It was built for the Object Oriented Programming course (COS 2203) using Java Swing, JDBC and a MySQL database.
 
-The application brings customer ordering and restaurant administration into one desktop system. It uses Java Swing for the graphical user interface, JDBC for database access and MySQL for persistent data storage.
+TastyHub is **not** a commercial service, and all data in the demonstration is sample data.
 
-## Project overview
+## What the system can do
 
-TastyHub was created as an Object Oriented Programming coursework project to demonstrate how a desktop application can organise food ordering and related restaurant-management tasks. Its codebase separates domain objects from database access classes and user-interface windows.
+**Customers**
+- Register and log in
+- Browse the menu with food photos
+- Add items to an order and place it
+- Submit a complaint about an order or service
 
-## Features
+**Administrators**
+- Log in to an admin dashboard
+- View and manage customers and orders
+- Review and respond to customer complaints
 
-- Food menu and customer order placement
-- Customer and order management
-- Payment recording
-- Delivery time estimates (ETA)
-- Delivery complaint submission and administration
-- Administrator login and dashboard
-- Food management
-- Sales reporting
-- WhatsApp support entry point
+## Technologies
 
-## Technology stack
-
-| Technology | Purpose |
-|---|---|
-| Java | Application programming language |
-| Java Swing | Desktop graphical user interface |
-| JDBC | Java-to-database connectivity |
-| MySQL | Relational database |
-| Apache Maven | Dependency and build management |
-| MySQL Connector/J | MySQL JDBC driver |
-| Apache NetBeans | Recommended development environment |
+| Layer | Technology |
+|-------|------------|
+| Front end (GUI) | Java Swing |
+| Back end (logic) | Java |
+| Database connectivity | JDBC |
+| Database | MySQL (`database/schema.sql`) |
+| Build / IDE | Maven, Apache NetBeans |
 
 ## Project structure
 
-```text
-TastyHub/
-├── pom.xml
-├── README.md
-├── .gitignore
-├── database/
-│   └── README.md
-├── docs/
-│   └── TEAM.md
-└── src/
-    ├── main/
-    │   ├── java/com/myproject/tastyhub/
-    │   └── resources/images/
-    └── test/java/com/myproject/tastyhub/
-```
+| Folder / file | Purpose |
+|---------------|---------|
+| `src/` | Java source code and food images |
+| `database/` | Database schema and setup notes |
+| `docs/` | Project documentation |
+| `pom.xml` | Maven build configuration |
 
-The existing Java package structure and GUI class names have been retained to minimise the risk of disrupting the working coursework application.
+## Project team — Group 3
 
+**Developer:** Nyamanyama Essenine (2025-08-40571), on behalf of Group 3.
+
+Kampala International University · School of Mathematics and Computing · Bachelor of Information Technology · Course unit: **Object Oriented Programming (COS 2203)**, Year 2 Semester 1 · Lecturer: **Dr. A. O. Ejidokun**
+
+### Group 3 members
+
+| No. | Reg. number | Member name | Course |
+|-----|-------------|-------------|--------|
+| 1 | 2025-08-41202 | Nakabuye Maria | BIT |
+| 2 | 2025-08-40254 | Nahurira Brair | BIT |
+| 3 | 2025-08-40189 | Mubangizi Ian | BIT |
+| 4 | 2025-08-40214 | Kisitu Philip | BIT |
+| 5 | 2025-08-40434 | Auma Mary Goretty | BIT |
+| 6 | 2025-08-40621 | Mukisa Teddy | BIT |
+| 7 | 2025-08-40457 | Akuma Dalil | BIT |
+| 8 | 2025-08-41277 | Nakayiira Bridget | BIT |
+| 9 | 2025-08-40975 | Muwanguzi Charles | BIT |
+| 10 | 2025-08-40373 | Nasirumbi Catherine | BIT |
+| 11 | 2025-08-41250 | Nabukenya Jamirah | BIT |
+| 12 | 2025-08-41258 | Kirabo Stynah | BIT |
+| 13 | 2025-08-41431 | Ampeire Sharrot | BIT |
+| 14 | 2025-08-40286 | Habiba Nidat Kasambura | BIT |
+| 15 | 2025-08-40657 | Ochen Daniel | BIT |
+| 16 | 2025-08-40571 | Nyamanyama Essenine | BIT |
+| 17 | 2025-08-40630 | Angwena Yerusa Mercy | BIT |
+| 18 | 2025-08-41236 | Muhanuzi Lyon | BIT |
+| 19 | 2025-08-41257 | Nabirye Hailate Mugweri | BIT |
+| 20 | 2025-08-40840 | Ssalabwa Joel | BIT |
+| 21 | 2025-08-40748 | Nkamushaba Ruth | BIT |
+| 22 | 2025-08-40411 | Namubiru Mariagoreth | BIT |
+| 23 | 2025-08-40946 | Ssemuli Keneddy | BIT |
 ## Requirements
 
 - JDK 21 or later
